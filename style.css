@@ -3,6 +3,10 @@
     padding: auto;
 }
 
-.Logo{
-    left: 50%;
+.Logo {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    left: 14%;
 }
