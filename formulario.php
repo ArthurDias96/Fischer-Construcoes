@@ -1,14 +1,14 @@
+<?php 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <title>Formulario</title>
     <meta charset="utf-8">
-    <link rel="stylesheet"href="style.css">
-    <link rel="sortcut icon"href="01.png">
     <link rel="stylesheet" href="bulma.min.css">
 </head>
-!--Formulario do Contato--->
 <body>
+<!--Formulario do Contato--->
+
 <section class="section">
         <div class="container">
             <div class="columns is-centered">
@@ -52,3 +52,4 @@
     </section>
 </body>
 </html>
+?
