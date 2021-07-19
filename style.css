@@ -13,13 +13,14 @@ font-size: 12px;
 .menu{
 list-style:none;
 border:1px solid #c0c0c0;
-right: 50px;
+
 }
 
 .menu li{
 position:relative;
 float:left;
 border-right:1px solid #c0c0c0;
+right: 50%;
 }
 
 .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
