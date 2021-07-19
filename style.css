@@ -2,6 +2,28 @@
     margin: auto;
     padding: auto;
 }
+(menu)
+
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+}
+
+.menu{
+list-style:none;
+border:1px solid #c0c0c0;
+float:left;
+}
+
+.menu li{
+position:relative;
+float:left;
+border-right:1px solid #c0c0c0;
+}
+
+
+(fim-menu)
 
 
 #Logo{
@@ -30,6 +52,4 @@
     width:260px;
   }
 
-  #Sobre{
-    
-  }
+  
