@@ -5,34 +5,67 @@
 (menu)
 
 
-body{
-font-size: 20px;
-
+body {
+    margin: 0;
 }
 
-.menu{
-list-style:none;
-border:1px #c0c0c0;
-top: 15px;
-font-family:arial black;
+ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
 }
 
-.menu li{
-position:relative;
-float:right;
-border-right:1px #c0c0c0;
-right: 15%;
-
+nav {
+    background-color: #fffafa;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.menu li a{color:#333; 
-text-decoration:none; 
-padding:20px 25px; 
-display:block;
-top:20px;}
 
+p {
+    color:      #363636;
+    font-family: arial black;
+}
 
+nav,
+ul {
+    display: flex;
+    flex-direction: row;
+}
 
+li {
+    padding: 0 20px;
+}
+
+.h {
+    margin: 0;
+    padding: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+li:hover,
+h1:hover,
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+button:focus~ul {
+    height: 260px;
+}
 
 (fim-menu)
 
