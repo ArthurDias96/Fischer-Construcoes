@@ -61,7 +61,7 @@ input, textarea {
 
 input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: #fffafa#fffafa;
-    box-shadow: 5px 0px 9px #fffafa;
+    box-shadow: 5px 0px 9px #1a1a1a;
     background-color: #fffafa;
     color: black;
     font-weight: bold;
