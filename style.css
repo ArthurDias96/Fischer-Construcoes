@@ -60,15 +60,15 @@ input, textarea {
 }
 
 input:hover, textarea:hover, input:focus, textarea:focus {
-    border-color: #000066;
+    border-color: #fffafa#fffafa;
     box-shadow: 5px 0px 9px #FFFF00;
-    background-color: #66FFFF;
+    background-color: #fffafa;
     color: black;
     font-weight: bold;
 }
 
 .enviar {
-    background-color: #66FFFF;
+    background-color: #fffafa;
     height: 40px;
     width: 100px;
     font-weight: bold;
@@ -88,7 +88,7 @@ textarea {
 
 form label {
     margin-left: 20px;
-    color: #FFFFFF;
+    color: #fffafa;
     font-weight: bold;
 }
 
