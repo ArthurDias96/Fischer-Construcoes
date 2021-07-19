@@ -3,38 +3,30 @@
     padding: auto;
 }
 (menu)
-
-
 body {
     margin: 0;
 }
-
 ul {
     list-style: none;
     padding: 0;
     overflow: hidden;
     transition: all .5s;
 }
-
 nav {
     background-color: #fffafa;
     padding: 0 20px;
     justify-content: space-between;
     align-items: center;
 }
-
-
 p {
     color:      #363636;
     font-family: arial black;
 }
-
 nav,
 ul {
     display: flex;
     flex-direction: row;
 }
-
 li {
     padding: 0 20px;
 }
@@ -42,8 +34,10 @@ li {
 .h {
     margin: 0;
     padding: 10px;
+    text-decoration: none;
 }
-
+a{
+        text-decoration: none;    }
 button {
     background-color: transparent;
     border: none;
@@ -54,7 +48,6 @@ button {
     top: 10px;
     display: none;
 }
-
 li:hover,
 h1:hover,
 button:hover {
@@ -67,9 +60,6 @@ button:focus~ul {
     height: 260px;
 }
 
-(fim-menu)
-
-
 #Logo{
     width: auto;
     height: auto;
@@ -77,10 +67,6 @@ button:focus~ul {
     top: 2%;
     left: 50%;
 }
-
-
-
-
 (contato)
 h1 {
     margin-bottom: 20px;
@@ -88,7 +74,6 @@ h1 {
     color: #66FFFF;
     text-shadow: 5px 5px 5px black;
 }
-
 input, textarea {
     width: 200px;
     padding: 10px;
@@ -99,7 +84,6 @@ input, textarea {
     -moz-border-radius: 5px;
     border: 1px solid;
 }
-
 input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: #fffafa#fffafa;
     box-shadow: 5px 0px 9px #1a1a1a;
@@ -107,7 +91,6 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     color: black;
     font-weight: bold;
 }
-
 .enviar {
     background-color: #fffafa;
     height: 40px;
@@ -119,25 +102,18 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     border: 1px solid;
     color: black;
 }
-
 textarea {
     width: 400px;
     height: 120px;
     line-height: 20px;
     max-width: 400px;
 }
-
 form label {
     margin-left: 20px;
     color: #fffafa;
     font-weight: bold;
 }
-
 (fim contato)
-
-
-
-
 #Sobre{
     font-family: serif;
     
@@ -149,7 +125,7 @@ form label {
 
 }
 
-.h8{
+.Sobre h2{
 
     font-family: calibre;
 }
