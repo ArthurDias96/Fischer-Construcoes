@@ -135,17 +135,28 @@ form label {
 
 (fim contato)
 
-#rodape{
-    background-color:000000;
 
-}
 
 
 #Sobre{
-    top: centraliza;
+    font-family: serif;
+    
+}
+
+.Sobre h1{
+    margin-left: 610px;
+    position: relative;
+
 }
 
 .h8{
 
     font-family: calibre;
 }
+
+.rodape{
+         display: flex;
+         background: #141414;
+         height: 50px;
+         overflow: hidden;
+     }
