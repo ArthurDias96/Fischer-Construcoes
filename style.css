@@ -13,6 +13,7 @@ font-size: 12px;
 .menu{
 list-style:none;
 border:1px #c0c0c0;
+top: -15px;
 }
 
 .menu li{
