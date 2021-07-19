@@ -79,6 +79,8 @@ button:focus~ul {
 }
 
 
+
+
 (contato)
 h1 {
     margin-bottom: 20px;
@@ -133,7 +135,17 @@ form label {
 
 (fim contato)
 
-.rodape{
+#rodape{
     background-color:000000;
 
+}
+
+
+#Sobre{
+    top: centraliza;
+}
+
+.h8{
+
+    font-family: calibre;
 }
