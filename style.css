@@ -10,7 +10,12 @@ font-family: arial, helvetica, sans-serif;
 font-size: 12px;
 }
 
+.menu{
+list-style:none;
+border:1px #c0c0c0;
+top: 5%;
 
+}
 
 .menu li{
 position:relative;
