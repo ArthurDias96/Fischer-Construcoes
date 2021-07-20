@@ -7,6 +7,10 @@
     <link rel="sortcut icon"href="01.png">
     <link rel="stylesheet"href="gallery-css-master/dist/gallery.theme.css">
     <link rel="stylesheet"href="gallery-css-master/dist/gallery.min.css">
+    <meta http-equiv="Content-Type" content="text/html;">
+    <link rel="stylesheet" href="class.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="bulma.min.css">
+
 </head>
 <body>
 
@@ -27,7 +31,7 @@
                     <a href="file:///C:/Users/USER/Documents/GitHub/Fischer-Construcoes/contato.php"><p>Contato</p></a>
                 </li>
                 </ul>
-        </nav>
+        </nav></body>
 <!--Slides-->
 <div class="gallery autoplay items-3">
             <div id="item-1" class="control-operator"></div>
@@ -49,6 +53,100 @@
                 <a href="#item-3" class="control-button">.</a>
             </div>
         </div>
+<!--formulario do contato-->
+        <section class="section">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                     <p class="title has-text-centered">Preencha o formulário abaixo para entrar em contato conosco:</p>
+                     <form action="enviar.php" method="POST">
+                        <div class="field">
+                            <label class="label">Nome</label>
+                            <div class="control">
+                                <input name="nome" class="input" type="text" placeholder="Seu nome">
+                            </div>
+                        </div>
+                         <div class="field">
+                            <label class="label">Email*</label>
+                            <div class="control">
+                                <input name="email" class="input" type="email" placeholder="Seu email">
+                            </div>
+                        </div>
+                         <div class="field">
+                            <label class="label">Fone*</label>
+                            <div class="control">
+                                <input name="email" class="input" type="email" placeholder="Fone">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Cidade*</label>
+                            <div class="control">
+                                <input name="email" class="input" type="email" placeholder="Cidade">
+                            </div></div>
+                        <div class="field">
+                            <label class="label">Estado*</label>
+                            <select id="UF" name="UF">
+                            <option value="">Selecione</option>
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AP">AP</option>
+                            <option value="AM">AM</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MS">MS</option>
+                            <option value="MT">MT</option>
+                            <option value="MG">MG</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PR">PR</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RS">RS</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="SC">SC</option>
+                            <option value="SP">SP</option>
+                            <option value="SE">SE</option>
+                            <option value="TO">TO</option>
+                         </select>
+                     </div>
+                            <div class="field">
+                            <label class="label">Assunto*</label>
+                            <div class="control">
+                                <input name="email" class="input" type="email" placeholder="Assunto">
+                            </div>
+                        </div>
+                            <div class="field">
+                            <label class="label">Mensagem*</label>
+                            <div class="control">
+                                <textarea name="mensagem" class="textarea" placeholder="Deixe sua mensagem" maxlength="2000"></textarea>
+                            </div>
+                        </div>
+ 
+                        <div class="field is-grouped">
+                            <div class="control">
+                                <button class="button is-link is-medium">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+ 
+                </div>
+            </div>
+        </div>
+    </section>
+<!--Mais Informações-->
+    <div class="b01">
+        <p>Contato da empresa</p>
+        <p>Email</p>
+        <p>Fone</p>
+        <p>Local</p>
+    </div>
 <!--Rodape-->
  <div class="rodape">
     </div>
