@@ -48,7 +48,6 @@ li {
 }
 a{
         text-decoration: none;    }
-
 #Logo{
     width: auto;
     height: auto;
@@ -107,7 +106,6 @@ form label {
     font-family: serif;
     
 }
-
 .Sobre h1{
     display: flex;
     flex-direction: row;
@@ -115,30 +113,24 @@ form label {
     justify-content: center;
     align-items: center;
 }
-
 .Sobre h2{
 
     font-family: calibre;
 }
-
 .rodape{
     background-color: #141414;
     width: auto;
     height: 100px;
 }
-
 .b01{
     margin-left: 600px;
     font-family: arial;
-}
-    
+} 
 .somos{
         background: #0a523c;
         width: 100%;
-        height: 100px;
-
+        height: 400px;
      }
-
 h4 {
     display: inline-block;
     font-family: Roboto,Helvetica,Arial,sans-serif;
@@ -148,18 +140,32 @@ h4 {
     color: #fff;
     background: #015f9b;
     padding: 20px 28px;
-    margin-bottom: 26px;
-
+    margin-left: 700px;
+    margin-top: 20px;
 }
-
-colocar {
+h5{   
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    margin-left: 500px;
+    margin-top: 100px;
+    color: #ffff;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+}
+h3 {
     display: inline-block;
     font-family: Roboto,Helvetica,Arial,sans-serif;
-    font-size: 25px;
-    font-weight: 300;
+    font-size: 50px;
+    font-weight: 400;
     text-transform: uppercase;
-    color: #fff;
-    background: #3e4095;
-    padding: 20px 28px;
-    margin-bottom: 26px;
+    color: #bababa;
+    margin: 50px;
+    margin-left: 525px;
+    BA
 }
+
+.css985{
+    margin-top:-20px ;
+    margin-left: 590px;
+
+   }
