@@ -29,41 +29,18 @@ p {
 nav,
 ul {
     display: flex;
-    flex-direction: row;
+   
 }
 li {
-    padding: 0 20px;
-}
-
-.h {
-    margin: 0;
-    padding: 10px;
-    text-decoration: none;
+    
 }
 a{
-        text-decoration: none;    }
-button {
-    background-color: transparent;
-    border: none;
-    color: #FFF;
-    font-size: 36px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    display: none;
-}
-li:hover,
-h1:hover,
-button:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    background-color: rgba(255, 255, 255, 0.2);
+        text-decoration: none; 
 }
 
-button:focus~ul {
-    height: 260px;
-}
 
+
+(fim do menu)
 #Logo{
     width: auto;
     height: auto;
@@ -77,6 +54,7 @@ h1 {
     margin-left: 20px;
     color: #66FFFF;
     text-shadow: 5px 5px 5px black;
+    position: relative;
 }
 input, textarea {
     width: 200px;
@@ -117,31 +95,17 @@ form label {
     color: #fffafa;
     font-weight: bold;
 }
-(fim contato)
-#Sobre{
-    font-family: serif;
-    
-}
-
-.Sobre h1{
-    margin-left: 635.9px;
-    position: relative;
-
-}
-
-.Sobre h2{
-
-    font-family: calibre;
-}
-
-.rodape{
-         display: flex;
-         background: #141414;
-         height: 50px;
-         overflow: hidden;
-     }
 
 .b01{
     margin-left: 600px;
     font-family: arial;
 }
+
+.rodape{
+    background-color: #141414;
+    width: 1200px;
+    height: 50px;
+}
+
+
+

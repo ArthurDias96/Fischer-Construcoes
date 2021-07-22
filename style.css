@@ -6,9 +6,15 @@
     margin: auto;
     padding: auto;
 }
+.teste{
+    width: 400px;
+    height: 300px;
+    background-image: url(fundo_teste.jpg);
+}
 (menu)
 body {
     margin: 0;
+    background-color:  #082767;
 }
 ul {
     list-style: none;
@@ -42,27 +48,6 @@ li {
 }
 a{
         text-decoration: none;    }
-button {
-    background-color: transparent;
-    border: none;
-    color: #FFF;
-    font-size: 36px;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    display: none;
-}
-li:hover,
-h1:hover,
-button:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-button:focus~ul {
-    height: 260px;
-}
 
 #Logo{
     width: auto;
@@ -124,9 +109,11 @@ form label {
 }
 
 .Sobre h1{
-    margin-left: 635.9px;
+    display: flex;
+    flex-direction: row;
     position: relative;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .Sobre h2{
@@ -135,13 +122,44 @@ form label {
 }
 
 .rodape{
-         display: flex;
-         background: #141414;
-         height: 50px;
-         overflow: hidden;
-     }
+    background-color: #141414;
+    width: auto;
+    height: 100px;
+}
 
 .b01{
     margin-left: 600px;
     font-family: arial;
+}
+    
+.somos{
+        background: #0a523c;
+        width: 100%;
+        height: 100px;
+
+     }
+
+h4 {
+    display: inline-block;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    background: #015f9b;
+    padding: 20px 28px;
+    margin-bottom: 26px;
+
+}
+
+colocar {
+    display: inline-block;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    background: #3e4095;
+    padding: 20px 28px;
+    margin-bottom: 26px;
 }
