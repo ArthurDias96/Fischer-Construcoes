@@ -1,3 +1,5 @@
+
+
 function Enviar() {
 
     var nome = document.getElementById("nomeid");
@@ -8,14 +10,6 @@ function Enviar() {
 
 }
 
-/*
- * jQuery Extra Selectors - (c) Keith Clark freely distributable under the terms of the MIT license.
- * 
- * twitter.com/keithclarkcouk
- * www.keithclark.co.uk
- */
-
-(function($) {
   function getNthIndex(cur, dir) {
     var t = cur, idx = 0;
     while (cur = cur[dir] ) {
@@ -64,9 +58,3 @@ function Enviar() {
   $.extend($.expr[':'], pseudos);
 }(jQuery));
 
-$(window).on('load', function () {
-    $('#preloader .inner').fadeOut();
-    $('#preloader').delay(350).fadeOut('slow'); 
-    $('body').delay(350).css({'overflow': 'visible'});
-})
-//]]>
