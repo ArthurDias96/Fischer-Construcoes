@@ -1,5 +1,13 @@
-@media only screen and (max-device-width: 500px) {
-/* .menu { width:100%; } */
+<style>
+ @import url(tiny.css) (min-width:300px);
+ @import url(small.css) (min-width:600px);
+ @import url(big.css) (min-width:900px);
+</style>
+@media screen and (max-width: 300px) {
+ /* estilos */
+}
+@media screen and (max-width: 600px) {
+/* Estilos */
 }
 
 * {
@@ -131,7 +139,7 @@ form label {
         width: 50%;
         height: 700px;
         margin-left: 0px;
-     }
+    }
 h4 {
     font-family: Relate;
     font-size: 55px;
@@ -145,14 +153,13 @@ h5{
     font-family: Roboto,Helvetica,Arial,sans-serif;
     margin-left: 150px;
     margin-top: 100px;
-    color: #b7b6b6;
+    color: #545454;
     font-size: 14px
-    line-height: 2em;
-   display: block;
-      }
+}
 .img_1{
-    direction: left;
- 
+position: relative;
+
+    
 }
 h3 {
     display: inline-block;
