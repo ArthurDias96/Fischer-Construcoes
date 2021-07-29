@@ -28,7 +28,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-p {
+p1 {
     color:      #016b3d;
     font-family: arial black;
 }
@@ -131,29 +131,30 @@ form label {
         width: 50%;
         height: 700px;
         margin-left: 0px;
+        position: relative;
+        margin-top: 200px;
     }
-h4 {
+h1{
     font-family: Relate;
     font-size: 55px;
     color: #b7b6b6;
     padding: 20px 28px;
-    margin-left: 300px;
+    margin-left: 240px;
     margin-top: 10px;
     width:2px;
 }
-h5{   
-    font-family: Roboto,Helvetica,Arial,sans-serif;
-    margin-left: 80px;
-    margin-top: 40px;
-    color: #3f3f3f;
-    font-size: 14px
-    padding: 0 0;
-    text-align:center;
+
+p{   
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    color: #333333;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
 }
 .img_1{
      transition: all;
-
-    
 }
 h3 {
     display: inline-block;
@@ -166,8 +167,6 @@ h3 {
     margin-left: 525px;
     text-align: center;
 }
-
-
 
 .css985{
     margin-top:-30px ;
