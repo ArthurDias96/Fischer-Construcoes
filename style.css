@@ -28,7 +28,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-p1 {
+h2 {
     color:      #016b3d;
     font-family: arial black;
 }
@@ -41,7 +41,7 @@ li {
     padding: 0 20px;
 }
 
-.h {
+.h2 {
     margin: 0;
     padding: 10px;
     text-decoration: none;
@@ -144,7 +144,7 @@ h1{
     width:2px;
 }
 
-p{   
+.p2{   
     font-family: Arial, Verdana, Tahoma, Sans-Serif;
     color: #333333;
     font-size: 12px;

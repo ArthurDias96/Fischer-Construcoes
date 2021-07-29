@@ -18,11 +18,11 @@ ul {
 }
 nav {
     background-color: #fffafa;
-    padding: 0 20px;
+    padding: 10px;
     justify-content: space-between;
     align-items: center;
 }
-p {
+h2 {
     color:      #016b3d;
     font-family: arial black;
 }
@@ -31,9 +31,7 @@ ul {
     display: flex;
    
 }
-li {
-    
-}
+
 a{
         text-decoration: none; 
 }
