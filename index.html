@@ -13,6 +13,7 @@
     <script src="components/prefix-free/prefixfree.min.js"></script>
     <meta http-equiv="Content-Type" content="text/html;">
     <link rel="stylesheet" href="class.css" type="text/css">
+</head>
     <!--Logo e menu-->
  <nav>
             <div class="Logo">
@@ -99,8 +100,25 @@
     <div class="co89">
         <h5>Contato</h5>
     </div>
-    <div class="maps">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.6390361349636!2d-55.5168366857906!3d-11.860520741691582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93a77f0c22f93277%3A0x9778dbfe576075f0!2zRmlzY2hlciBDb25zdHJ1w6fDtWVz!5e0!3m2!1spt-BR!2sbr!4v1627917500677!5m2!1spt-BR!2sbr" width="1000" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+    <div class="formulario">
+    <form method="post" onsubmit="validaForm(); return false;" class="form">
+    <p class="name">
+        <label for="name">Nome</label>
+        <input type="text" placeholder="Seu Nome" />
+    </p>
+    <p class="email">
+        <label for="email">E-mail</label>
+        <input type="text" placeholder="mail@exemplo.com.br" />
+    </p>
+    <p class="text">
+        <label for="mensagem">Mensagem</label>
+        <textarea placeholder="Escreva sua mensagem" /></textarea>
+    </p>
+    <p class="submit">
+        <input type="submit" value="Enviar" />
+    </p>
+    </form>
+    </div>
 <!--Rodape-->
 
 <script src="script.js"></script>
