@@ -1,7 +1,10 @@
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-device-width: 1000px) {
 /* .menu { width:100%; } */
 }
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 * {
     margin: auto;
     padding: auto;
@@ -187,7 +190,6 @@ h3 {
     margin-left: 830px;
 }
 h5{
-    display: inline-block;
     font-family: Roboto,Helvetica,Arial,sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -195,19 +197,20 @@ h5{
     color: #707271;
     margin-top: 100px;
     font-weight: bold;
-}
-.Endereço{
-    left: 300px;
-    position: relative;   
+   
 }
 h6{
     font-family: Arial, Verdana, Tahoma, Sans-Serif;
     color: #707271;
     font-size: 12px;
-    margin-left: 250px;
+    margin-left: 250px; 
     
-   
 }
+.Endereço{
+    left: 300px;
+    position: relative;   
+}
+
 .css66{
    left: 303px;
    position: relative;
@@ -215,6 +218,7 @@ h6{
 }
 .red56{
     left: 900px;
+    margin-top: -300px;
     position: relative;
 }
 .K10{
@@ -224,4 +228,5 @@ h6{
 
 .maps{
     margin-left: 150px;
+    position: relative;
 }
