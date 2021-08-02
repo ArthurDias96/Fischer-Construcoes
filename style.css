@@ -144,12 +144,15 @@ h1{
     width:2px;
 }
 
-.p2{   
+h4{   
     font-family: Arial, Verdana, Tahoma, Sans-Serif;
     color: #333333;
     font-size: 12px;
     margin-top: 10px;
+    margin-left: 10px;
     width: 40em;
+    
+    display: inline;
 }
 .img_1{
      transition: all;
@@ -186,4 +189,23 @@ h3 {
     margin-left: 830px;
 }
 
+.maps{
+    margin-left: 100px;
+}
 
+.Endereço{
+    margin-left: 1000px;
+    
+  }
+
+.Carreiras{
+
+}
+
+.RedesSociais{
+
+}
+
+.Contato{
+
+}

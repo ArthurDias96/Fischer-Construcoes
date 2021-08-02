@@ -9,6 +9,7 @@
 (menu)
 body {
     margin: 0;
+    background-color:  #082767;
 }
 ul {
     list-style: none;
@@ -18,7 +19,7 @@ ul {
 }
 nav {
     background-color: #fffafa;
-    padding: 10px;
+    padding: 0 20px;
     justify-content: space-between;
     align-items: center;
 }
@@ -29,15 +30,19 @@ p {
 nav,
 ul {
     display: flex;
-   
+    flex-direction: row;
+}
+li {
+    padding: 0 20px;
 }
 
+p {
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+}
 a{
-        text-decoration: none; 
-}
-
-
-
+        text-decoration: none;    }
 (fim do menu)
 #Logo{
     width: auto;
