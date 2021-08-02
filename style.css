@@ -120,11 +120,7 @@ form label {
 
     font-family: calibre;
 }
-.rodape{
-    background-color: #141414;
-    width: auto;
-    height: 100px;
-}
+
 .b01{
     margin-left: 600px;
     font-family: arial;
@@ -169,7 +165,6 @@ h3 {
     margin-left: 525px;
     text-align: center;
 }
-
 .css985{
     margin-top:-30px ;
     margin-left: 590px;
@@ -179,15 +174,16 @@ h3 {
 .obra_1{
     margin-left: 250px;
 }
-
 .obra_2{
     margin-top: -25.2%;
     margin-left: 540px;
 }
-
 .obra_3{
     margin-top: -25.2%;
     margin-left: 830px;
+}
+.ht10{
+    margin-left: 10px;
 }
 h5{
     font-family: Roboto,Helvetica,Arial,sans-serif;
@@ -206,29 +202,46 @@ h6{
     margin-left: 252px; 
     
 }
+.ico1{
+    width: 10px;
+    height: 10px;
+    margin-left: 240px;
+    margin-top: -10px;
+}
+.ico2{
+     width: 10px;
+    height: 10px;
+    margin-left: 240px;
+    margin-top: -9px;
+}
+
+.ico3{
+     width: 10px;
+    height: 10px;
+    margin-left: -30px;
+    margin-top: -20px;
+}
 .Endereço{
     left: 300px;
     position: relative;   
 }
-
 .css66{
    left: 300px;
    position: relative;
  
 }
 .red56{
-    left: 900px;
-    margin-top: -300px;
+    left: 300px;
+    
     position: relative;
 }
 .K10{
       left: 50px;
       position: relative;
 }
-
 .co89{
     left: 900px;
-    margin-top: 100px;
+    margin-top: -420px;
     position: relative;
 }
 .formulario{
@@ -269,4 +282,42 @@ input:focus, textarea:focus {
     border-radius: 3px;
     moz-border-radius: 3px;
     -webkit-border-radius: 3px;                     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape{
+    background-color: #141414;
+    width: auto;
+    height: 100px;
 }
