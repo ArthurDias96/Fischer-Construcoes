@@ -59,7 +59,7 @@ a{
 h1 {
     margin-bottom: 20px;
     margin-left: 20px;
-    color: #66FFFF;
+    color: #707271;
     text-shadow: 5px 5px 5px black;
 }
 input, textarea {
@@ -137,21 +137,19 @@ form label {
 h1{
     font-family: Relate;
     font-size: 55px;
-    color: #b7b6b6;
+    color: #707271;
     padding: 20px 28px;
     margin-left: 240px;
     margin-top: 10px;
     width:2px;
 }
-
 h4{   
     font-family: Arial, Verdana, Tahoma, Sans-Serif;
-    color: #333333;
+    color: #707271;
     font-size: 12px;
     margin-top: 10px;
     margin-left: 10px;
     width: 40em;
-    
     display: inline;
 }
 .img_1{
@@ -163,7 +161,7 @@ h3 {
     font-size: 50px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #bababa;
+    color: #707271;
     margin: 50px;
     margin-left: 525px;
     text-align: center;
@@ -188,24 +186,42 @@ h3 {
     margin-top: -25.2%;
     margin-left: 830px;
 }
+h5{
+    display: inline-block;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #707271;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.Endereço{
+    left: 300px;
+    position: relative;   
+}
+h6{
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    color: #707271;
+    font-size: 12px;
+    margin-left: 250px;
+    
+   
+}
+.css66{
+   left: 303px;
+   position: relative;
+ 
+}
+.red56{
+    left: 900px;
+    position: relative;
+}
+.K10{
+      left: 50px;
+      position: relative;
+}
 
 .maps{
-    margin-left: 100px;
-}
-
-.Endereço{
-    margin-left: 1000px;
-    
-  }
-
-.Carreiras{
-
-}
-
-.RedesSociais{
-
-}
-
-.Contato{
-
+    margin-left: 150px;
 }
