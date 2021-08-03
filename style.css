@@ -120,7 +120,11 @@ form label {
 
     font-family: calibre;
 }
-
+.rodape{
+    background-color: #141414;
+    width: auto;
+    height: 100px;
+}
 .b01{
     margin-left: 600px;
     font-family: arial;
@@ -165,6 +169,7 @@ h3 {
     margin-left: 525px;
     text-align: center;
 }
+
 .css985{
     margin-top:-30px ;
     margin-left: 590px;
@@ -225,6 +230,7 @@ h6{
     left: 300px;
     position: relative;   
 }
+
 .css66{
    left: 300px;
    position: relative;
@@ -239,6 +245,7 @@ h6{
       left: 50px;
       position: relative;
 }
+
 .co89{
     left: 900px;
     margin-top: -420px;
@@ -283,41 +290,40 @@ input:focus, textarea:focus {
     moz-border-radius: 3px;
     -webkit-border-radius: 3px;                     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.maps{
+    margin-left: 200px;
+}
 .rodape{
     background-color: #141414;
     width: auto;
-    height: 100px;
+    height: 70px;
+    margin-top: 20px;
+}
+.inf{
+    text-align: center;
+    margin-top: -50px;
+    color:  #DCDCDC;
+    }
+.tex{
+    text-align: center;
+    color: #dcdcdc;
+}
+.link{
+    margin-top: -18px;
+    margin-left:712px;
+    color:  #DCDCDC;
+   }
+a {
+    color: #DCDCDC;
+   
+}
+
+.face{
+
+}
+.Insta{
+    
+}
+.Link{
+    
 }
