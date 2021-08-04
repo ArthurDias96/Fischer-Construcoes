@@ -1,5 +1,5 @@
-@media only screen and (max-device-width: 1000px) {
-/* .menu { width:100%; } */
+@media only screen and (max-device-width: 700px) {
+/* .menu { width:400%; } */
 }
 html{
     max-width: 100%;
