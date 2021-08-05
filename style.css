@@ -411,21 +411,18 @@ a {
 }
 
 .h110{
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: -10px;
 
 }
 .h111{
-    margin-left: 100px;
+    margin-left: -300px;
     margin-top: -10px;
 }
 
-.h112{
-    margin-left: 100px;
-    margin-top: -10px;
-}
+
 
 .h113{
-    margin-left: 100px;
+    margin-left: -400px;
     margin-top: -10px;
 }
