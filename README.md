@@ -6,10 +6,10 @@ Este é o meu primeiro projeto para minha empresa. Criado com muito carinho e cu
 <h4 align="right"> 
 	🚧 🚀 Em construção... 🚀 🚧
 </h4>
-<h5>
+<h5 align="right">
 Fischer Construções construído com:
 PHP 
 HTML
 CSS
 JAVASCRIPT
-</5>
+</h5>
