@@ -1,5 +1,5 @@
 @media only screen and (max-device-width: 700px) {
-/* .menu { width:400%; } */
+/* .menu { width:00%; } */
 }
 html{
     max-width: 100%;
@@ -372,8 +372,7 @@ a {
     background-color: #ffffff;
     height: 80px;
     width: 2px;
-    
-    margin-top: -50px;
+    margin-top: -70px;
     display: flex;
     position: relative;
     justify-content: center;
@@ -382,8 +381,7 @@ a {
     background-color: #ffffff;
     height: 80px;
     width: 2px;
-    
-    margin-top: -80px;
+    margin-top: -81px;
     margin-left: 300px;
     display: flex;
     position: relative;
@@ -393,9 +391,8 @@ a {
     background-color: #ffffff;
     height: 80px;
     width: 2px;
-    
     margin-left: 1030px;
-    margin-top: -90px;
+    margin-top: -81px;
     display: flex;
     position: relative;
     justify-content: right;
@@ -411,18 +408,21 @@ a {
 }
 
 .h110{
-    margin-left: 300px;
-    margin-top: -10px;
+    margin-left: 100px;
+    margin-top: 30px;
 
 }
 .h111{
-    margin-left: -300px;
-    margin-top: -10px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
 
-
+.h112{
+    margin-left: 100px;
+    margin-top: 30px;
+}
 
 .h113{
-    margin-left: -400px;
-    margin-top: -10px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
