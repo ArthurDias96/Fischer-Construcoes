@@ -1,12 +1,12 @@
 <h1 align="center">
 FISCHER CONSTRUÇÕES
  </h1>
- <h2 align="right">
+ <h2 align="left">
 Este é o meu primeiro projeto para minha empresa. Criado com muito carinho e cuidadosamente, usando dos mais refinados temperos que a programação nos oferece!</h2>
-<h4 align="right"> 
+<h4 align="left"> 
 	🚧 🚀 Em construção... 🚀 🚧
 </h4>
-<h5 align="right">
+<h5 align="left">
 Fischer Construções construído com:
 PHP 
 HTML
