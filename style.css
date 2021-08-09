@@ -278,11 +278,7 @@ h6{
    position: relative;
  
 }
-.red56{
-    left: 300px;
-    
-    position: relative;
-}
+
 .K10{
       left: 50px;
       position: relative;
@@ -336,29 +332,11 @@ input:focus, textarea:focus {
 .maps{
     margin-left: 200px;
 }
-.rodape{
-    background-color: #141414;
-    width: auto;
-    height: 70px;
-    margin-top: 20px;
-}
-.inf{
-    text-align: center;
-    margin-top: -50px;
-    color:  #DCDCDC;
-    }
-.tex{
-    text-align: center;
-    color: #dcdcdc;
-}
-.link{
-    margin-top: -18px;
-    margin-left:712px;
-    color:  #DCDCDC;
-   }
-a {
-    color: #DCDCDC;
-   
+
+.red56{
+    left: 300px;
+    
+    position: relative;
 }
 
 .Face{
@@ -504,10 +482,8 @@ h7{
         font-weight: bold;
      font-family: Arial, Verdana, Tahoma, Sans-Serif;
      }
-.strong{
-    text-align: right;
-    text-align: justify;
-    color: #ffffff;
+strong{
+    color: #8a8a8a;
     margin-top: -5px;
     text-decoration: none;
     font-size: 11px;
@@ -530,4 +506,76 @@ h21{
     text-align: center;
         font-weight: bold;
      font-family: Arial, Verdana, Tahoma, Sans-Serif;
+}
+
+(Pagina das obras)
+.test10{
+    background: black;
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(RODAPE)
+.rodape{
+    background-color: #141414;
+    width: auto;
+    height: 70px;
+    margin-top: 20px;
+}
+.inf{
+    text-align: center;
+    margin-top: -50px;
+    color:  #DCDCDC;
+    }
+.tex{
+    text-align: center;
+    color: #dcdcdc;
+}
+.link{
+    margin-top: -18px;
+    margin-left:712px;
+    color:  #DCDCDC;
+   }
+a {
+    color: #DCDCDC;
+   
 }
