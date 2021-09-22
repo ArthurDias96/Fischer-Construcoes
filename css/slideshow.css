@@ -13,8 +13,8 @@
 
 /* slideshow item */
 .slideshow--item {
-	width: 640px;
-	height: 360px;
+	width: 1600px;
+	height: 400px;
 	line-height: 1.5;
 	position: absolute;
 	top: 0;
