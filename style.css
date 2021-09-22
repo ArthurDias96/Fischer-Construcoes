@@ -1,0 +1,617 @@
+@media only screen and (max-device-width: 700px) {
+/* .menu { width:auto; } */
+}
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+* {
+    margin: auto;
+    padding: auto;
+}
+html, body{
+    margin: 0;
+    min-height: 300px;
+  }
+  
+  body{
+    text-align: center;
+  }
+  
+  .slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
+  .slide-controller:nth-child(2):checked ~ .slide-show .slides-list{--selected-item: 1;}
+  .slide-controller:nth-child(3):checked ~ .slide-show .slides-list{--selected-item: 2;}
+  .slide-controller:nth-child(4):checked ~ .slide-show .slides-list{--selected-item: 3;}
+  
+  .slide-show{
+    overflow: hidden;
+  }
+  
+  .slides-list{
+    --selected-item: 0;
+    --total-items: 4;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    position: relative;
+    left: calc(var(--selected-item) * -100%);
+    width: calc(var(--total-items) * 100%);
+    transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+  
+  .slide{
+    width: 100%;
+  }
+(menu)
+body {
+    margin: 10;
+    background-color:#707271;
+
+
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+
+    
+}
+nav {
+     padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+p {
+    color:#036a42;
+    font-family: arial black;
+   
+
+}
+nav,
+ul {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+
+}
+li {
+    padding: 0 20px;
+}
+p {
+    margin: 0;
+
+    padding: 10px;
+    text-decoration: none;
+}
+a{
+        text-decoration: none;    }
+.img_menu{
+   background-color:#016b3d ;
+   width: auto;
+   height: 1%;
+   margin-top: -0px;
+}
+(fim do menu)
+
+#Logo{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+}
+
+.teste{
+    width: 400px;
+    height: 300px;
+    background-image: url(fundo_teste.jpg);
+}
+(contato)
+h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #707271;
+    text-shadow: 5px 5px 5px black;
+}
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #fffafa#fffafa;
+    box-shadow: 5px 0px 9px #1a1a1a;
+    background-color: #fffafa;
+    color: black;
+    font-weight: bold;
+}
+.enviar {
+    background-color: #fffafa;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+form label {
+    margin-left: 20px;
+    color: #fffafa;
+    font-weight: bold;
+}
+(fim contato)
+#Sobre{
+    font-family: serif;
+    
+}
+.Sobre h1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.Sobre h2{
+
+    font-family: calibre;
+}
+.rodape{
+    background-color: #141414;
+    width: auto;
+    height: 100px;
+}
+.b01{
+    margin-left: 600px;
+    font-family: arial;
+} 
+.somos{
+        background-color: #e5e5e5;
+        width: 700px;
+        height: 500px;
+        margin-left: 0px;
+        position: relative;
+        margin-top: 200px;
+}
+h1{
+    font-family: Relate;
+    font-size: 55px;
+    color: #707271;
+    padding: 20px 28px;
+    margin-left: 240px;
+    margin-top: 10px;
+    width:2px;
+      font-weight: bold;
+}
+h4{   
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    color: #707271;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 48em;
+    text-align: justify;
+    font-weight: bold;
+   line-height: 15px;
+   text-ident: 1cm;
+
+
+}
+.img_1{
+     transition: all;
+    }
+h3 {
+    display: inline-block;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #707271;
+    margin: 50px;
+    margin-left: 525px;
+    text-align: center;
+}
+
+.css985{
+    background-color:#036a42;
+    width:130px;
+    height: 14px;
+    margin-top:-30px ;
+    margin-left: 590px;
+    position: absolute;
+
+   }
+.obra_1{
+    background-color: #ebeded;
+    width: 220px;
+    height: 347px;
+    margin-left: 200px;
+
+}
+.obra_2{
+    background-color: #ebeded;
+    width: 220px;
+    height: 347px;
+    margin-left: 540px;
+    margin-top: -345px;
+}
+.obra_3{
+    background-color:#ebeded;
+    width: 220px;
+    height: 347px;
+    margin-left: 880px;
+    margin-top: -345px;
+}
+.ht10{
+    margin-left: 10px;
+     position: relative;
+     margin-top: 80px;
+}
+h5{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #707271;
+    margin-top: 100px;
+    font-weight: bold;
+   
+}
+h6{
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    color: #707271;
+    font-size: 12px;
+    margin-left: 252px; 
+    
+}
+.ico1{
+    width: 10px;
+    height: 10px;
+    margin-left: 240px;
+    margin-top: -10px;
+}
+.ico2{
+     width: 10px;
+    height: 10px;
+    margin-left: 240px;
+    margin-top: -9px;
+}
+
+.ico3{
+     width: 10px;
+    height: 10px;
+    margin-left: -30px;
+    margin-top: -20px;
+}
+.Endereço{
+    left: 300px;
+    position: relative;   
+}
+
+.css66{
+   left: 300px;
+   position: relative;
+ 
+}
+
+.K10{
+      left: 50px;
+      position: relative;
+}
+
+.co89{
+    left: 600px;
+    margin-top: -450px;
+    position: relative;
+}
+.formulario{
+    margin-left: 870px;
+    margin-top: -300px;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    width: 200px;
+    color: #707271;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+textarea {
+    width: 400px;
+    height: 150px;
+    max-width: 400px;
+    line-height: 18px;
+}
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+    border-color: 1px solid #C9C9C9;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;     
+}
+.form label {
+    margin-bottom: 10px;
+    color: #999999;
+    display: block;
+}
+.submit input {
+    width: 100px;
+    height: 40px;
+    background-color: #707271;
+    color: #FFF;
+    border-radius: 3px;
+    moz-border-radius: 3px;
+    -webkit-border-radius: 3px;                     
+}
+.maps{
+    margin-left: 200px;
+}
+
+.red56{
+    left: 300px;
+    
+    position: relative;
+}
+
+.Face{
+    margin-left: 300px;
+}
+.Insta{
+    margin-left: 50px;
+    margin-top: -24px;
+}
+.Link{
+    margin-left: 100px;
+    margin-top: -24px;
+}
+
+.num{
+    background: #036a42;
+    width:100%;
+    height: 200px;
+    margin-top: 0px;
+    display: flex;
+    position: relative;
+}
+
+.num_barra{
+    background-color: #ffffff;
+    height: 80px;
+    width: 2px;
+    margin-top: -70px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.num_barra2{
+    background-color: #ffffff;
+    height: 80px;
+    width: 2px;
+    margin-top: -81px;
+    margin-left: 300px;
+    display: flex;
+    position: relative;
+    justify-content: left;
+}
+.num_barra3{
+    background-color: #ffffff;
+    height: 80px;
+    width: 2px;
+    margin-left: 1030px;
+    margin-top: -81px;
+    display: flex;
+    position: relative;
+    justify-content: right;
+}
+.cor{
+    color: #ffffff;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    margin-top: -100px;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.h110{
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.h111{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.h112{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.h113{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.ano{
+    margin-left: 63px;
+    margin-top: -120px;
+}
+.Projcts_compl{
+    margin-left:400px;
+    margin-top: -92px;
+    }
+.Empr_atend{
+     margin-left:770px;
+     margin-top: -92px;
+}
+.Novs_projects{
+     margin-left:1100px;
+     margin-top: -92px;
+}
+
+h10{
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    font-size: 20px;
+}
+h11{
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    font-size: 80px;
+    display: flex;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+
+.img_sobre{
+    margin-left: 500px;
+    margin-top: -500;
+    position: relative;
+    display: flex;
+    }
+
+.img_sobre_1{
+    margin-left: 700px;
+    margin-top: -0;
+    position: relative;
+    display: flex;
+    }
+
+.slide_1{
+    margin-left: 3px;
+}
+.slide_2{
+    margin-left: 3px;
+    
+}
+.slide_3{
+    margin-left: 3px;
+}
+h7{
+    color: black;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 80px;
+    text-align: center;
+        font-weight: bold;
+     font-family: Arial, Verdana, Tahoma, Sans-Serif;
+     }
+strong{
+    color: #8a8a8a;
+    margin-top: -5px;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+}
+h20{
+    color: black;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 80px;
+    text-align: center;
+    font-weight: bold;
+     font-family: Arial, Verdana, Tahoma, Sans-Serif;
+}
+h21{
+    color: black;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 75px;
+    text-align: center;
+        font-weight: bold;
+     font-family: Arial, Verdana, Tahoma, Sans-Serif;
+}
+
+(Pagina das obras)
+.test10{
+    background: black;
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(RODAPE)
+.rodape{
+    background-color: #141414;
+    width: auto;
+    height: 70px;
+    margin-top: 20px;
+}
+.inf{
+    text-align: center;
+    margin-top: -50px;
+    color:  #DCDCDC;
+    }
+.tex{
+    text-align: center;
+    color: #dcdcdc;
+}
+.link{
+    margin-top: -18px;
+    margin-left:712px;
+    color:  #DCDCDC;
+   }
+a {
+    color: #DCDCDC;
+   
+}
