@@ -10,80 +10,64 @@ html{
     margin: auto;
     padding: auto;
 }
+CSS
 :root {
-    --body-bg: #fafafa;
-    --body-color: #555;
-    --link-color: #222;
-    --link-color-hover: #ec5840;
-  }
-  
-  body {
-    background-color: var(--body-bg);
-    color: var(--body-color);
-  }
-  
-  a {
-    color: var(--link-color);
-  }
-  
-  a:hover {
-    color: var(--link-color-hover);
-  }
-  1
-  2
-  3
-  4
-  5
-  6
-  7
-  8
-  9
-  10
-  11
-  12
-  13
-  14
-  15
-  16
-  17
-  18
-  19
-  :root {
-    --body-bg: #fafafa;
-    --body-color: #555;
-    --link-color: #222;
-    --link-color-hover: #ec5840;
-  }
-   
-  body {
-    background-color: var(--body-bg);
-    color: var(--body-color);
-  }
-   
-  a {
-    color: var(--link-color);
-  }
-   
-  a:hover {
-    color: var(--link-color-hover);
-  }
-  A partir daí, com somente uma pequena adição, seria possível ter estilos completamente adequados a um dark mode:
-  
-  CSS
-  .dark-mode:root {
-    --body-bg: #212529;
-    --body-color: #899095;
-    --link-color: #dee2e6;
-    --link-color-hover: #3cc368;
-  }
+  --body-bg: #fafafa;
+  --body-color: #555;
+  --link-color: #222;
+  --link-color-hover: #ec5840;
+}
 
-  .dark-mode:root {
-    --body-bg: #212529;
-    --body-color: #899095;
-    --link-color: #dee2e6;
-    --link-color-hover: #3cc368;
-  }
-  
+body {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-color-hover);
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+:root {
+  --body-bg: #fafafa;
+  --body-color: #555;
+  --link-color: #222;
+  --link-color-hover: #ec5840;
+}
+ 
+body {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+ 
+a {
+  color: var(--link-color);
+}
+ 
+a:hover {
+  color: var(--link-color-hover);
+}
 (menu)
 body {
     margin: 10;
