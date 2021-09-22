@@ -3,22 +3,18 @@
     <title>Fischer Construções</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://www.flaticon.com/br/icones-gratis/redes-sociais">
-    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet"href="css/style.css">
     <link rel="sortcut icon"href="img/01.png">
     <link href="ContatoEstilo.css" rel="stylesheet" media="all" />
     <script src="JavaScript.js"></script>
-    <link rel="stylesheet" href="components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="gallery-css-master/dist/gallery.css">
-    <link rel="stylesheet" href="gallery-css-master/dist/gallery.theme.css">
-    <script src="components/html5shiv/dist/html5shiv.js"></script>
-    <script src="components/prefix-free/prefixfree.min.js"></script>
     <meta http-equiv="Content-Type" content="text/html;">
-    <link rel="stylesheet" href="class.css" type="text/css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://wa.me/55(aqui seu numero com ddd | tudo junto)?text=Adorei%20seu%20artigo" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
   z-index:1000;" target="_blank">
     <i style="margin-top:16px" class="fa fa-whatsapp"></i>
     </a>
+    <link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/slideshow.css">
 <body>    
     <!--Logo e menu-->
  <nav>     
@@ -38,25 +34,102 @@
        
 
 <!--Slides-->
-<div class="gallery autoplay items-3">
-            <div id="item-1" class="control-operator"></div>
-            <div id="item-2" class="control-operator"></div>
-            <div id="item-3" class="control-operator"></div>
-            <figure class="item">
-                    <img src="img/03.jpg" width="1600" height="1043">
-            </figure>
-            <figure class="item">
-                    <img src="img/04.jpg" width="1600" height="1043">
-            </figure>
-            <figure class="item">
-                    <img src="img/05.jpg" width="1600" height="1043">
-            </figure>
-            <div class="controls">
-                <a href="#item-1" class="control-button">.</a>
-                <a href="#item-2" class="control-button">.</a>
-                <a href="#item-3" class="control-button">.</a>
-            </div>
-        </div>
+
+
+<div class="slideshow">
+    <input type="radio" name="ss1" id="ss1-item-1" class="slideshow--bullet" checked="checked" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/sports/1" />
+        <label for="ss1-item-3" class="slideshow--nav slideshow--nav-previous">Go to slide 3</label>
+        <label for="ss1-item-2" class="slideshow--nav slideshow--nav-next">Go to slide 2</label>
+    </div>
+
+    <input type="radio" name="ss1" id="ss1-item-2" class="slideshow--bullet" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/sports/2" />
+        <label for="ss1-item-1" class="slideshow--nav slideshow--nav-previous">Go to slide 1</label>
+        <label for="ss1-item-3" class="slideshow--nav slideshow--nav-next">Go to slide 3</label>
+    </div>
+
+    <input type="radio" name="ss1" id="ss1-item-3" class="slideshow--bullet" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/sports/3" />
+        <label for="ss1-item-2" class="slideshow--nav slideshow--nav-previous">Go to slide 2</label>
+        <label for="ss1-item-4" class="slideshow--nav slideshow--nav-next">Go to slide 4</label>
+    </div>
+    
+    <input type="radio" name="ss1" id="ss1-item-4" class="slideshow--bullet" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/people/3" />
+        <label for="ss1-item-3" class="slideshow--nav slideshow--nav-previous">Go to slide 3</label>
+        <label for="ss1-item-1" class="slideshow--nav slideshow--nav-next">Go to slide 1</label>
+    </div>
+
+</div>
+
+<h2>Fading:</h2>
+<div class="slideshow" data-transition="fade">
+    <input type="radio" name="ss2" id="ss2-item-1" class="slideshow--bullet" checked="checked" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/sports/1" />
+        <label for="ss2-item-3" class="slideshow--nav slideshow--nav-previous">Go to slide 3</label>
+        <label for="ss2-item-2" class="slideshow--nav slideshow--nav-next">Go to slide 2</label>
+    </div>
+
+    <input type="radio" name="ss2" id="ss2-item-2" class="slideshow--bullet" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/sports/2" />
+        <label for="ss2-item-1" class="slideshow--nav slideshow--nav-previous">Go to slide 1</label>
+        <label for="ss2-item-3" class="slideshow--nav slideshow--nav-next">Go to slide 3</label>
+    </div>
+
+    <input type="radio" name="ss2" id="ss2-item-3" class="slideshow--bullet" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/sports/3" />
+        <label for="ss2-item-2" class="slideshow--nav slideshow--nav-previous">Go to slide 2</label>
+        <label for="ss2-item-4" class="slideshow--nav slideshow--nav-next">Go to slide 4</label>
+    </div>
+    
+    <input type="radio" name="ss2" id="ss2-item-4" class="slideshow--bullet" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/people/3" />
+        <label for="ss2-item-3" class="slideshow--nav slideshow--nav-previous">Go to slide 3</label>
+        <label for="ss2-item-1" class="slideshow--nav slideshow--nav-next">Go to slide 1</label>
+    </div>
+
+</div>
+
+<h2>Zoom in:</h2>
+<div class="slideshow" data-transition="zoom">
+    <input type="radio" name="ss3" id="ss3-item-1" class="slideshow--bullet" checked="checked" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/sports/1" />
+        <label for="ss3-item-3" class="slideshow--nav slideshow--nav-previous">Go to slide 3</label>
+        <label for="ss3-item-2" class="slideshow--nav slideshow--nav-next">Go to slide 2</label>
+    </div>
+
+    <input type="radio" name="ss3" id="ss3-item-2" class="slideshow--bullet" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/sports/2" />
+        <label for="ss3-item-1" class="slideshow--nav slideshow--nav-previous">Go to slide 1</label>
+        <label for="ss3-item-3" class="slideshow--nav slideshow--nav-next">Go to slide 3</label>
+    </div>
+
+    <input type="radio" name="ss3" id="ss3-item-3" class="slideshow--bullet" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/sports/3" />
+        <label for="ss3-item-2" class="slideshow--nav slideshow--nav-previous">Go to slide 2</label>
+        <label for="ss3-item-4" class="slideshow--nav slideshow--nav-next">Go to slide 4</label>
+    </div>
+    
+    <input type="radio" name="ss3" id="ss3-item-4" class="slideshow--bullet" />
+    <div class="slideshow--item">
+        <img src="http://lorempixel.com/640/360/people/3" />
+        <label for="ss3-item-3" class="slideshow--nav slideshow--nav-previous">Go to slide 3</label>
+        <label for="ss3-item-1" class="slideshow--nav slideshow--nav-next">Go to slide 1</label>
+    </div>
+
+</div>
  <!--Obras--->
         <div class="obras">
             <h3>SERVIÇOS</h3>

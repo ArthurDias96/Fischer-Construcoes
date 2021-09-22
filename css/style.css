@@ -10,64 +10,30 @@ html{
     margin: auto;
     padding: auto;
 }
-CSS
-:root {
-  --body-bg: #fafafa;
-  --body-color: #555;
-  --link-color: #222;
-  --link-color-hover: #ec5840;
-}
 
-body {
-  background-color: var(--body-bg);
-  color: var(--body-color);
-}
-
-a {
-  color: var(--link-color);
-}
-
-a:hover {
-  color: var(--link-color-hover);
-}
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-:root {
-  --body-bg: #fafafa;
-  --body-color: #555;
-  --link-color: #222;
-  --link-color-hover: #ec5840;
-}
- 
-body {
-  background-color: var(--body-bg);
-  color: var(--body-color);
-}
- 
-a {
-  color: var(--link-color);
-}
- 
-a:hover {
-  color: var(--link-color-hover);
-}
+  .slide-show{
+    overflow: hidden;
+  }
+  
+  .slides-list{
+    --selected-item: 0;
+    --total-items: 4;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    position: relative;
+    left: calc(var(--selected-item) * -100%);
+    width: calc(var(--total-items) * 100%);
+    transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+  
+  .slide{
+    width: 100%;
+  }
 (menu)
 body {
     margin: 10;
