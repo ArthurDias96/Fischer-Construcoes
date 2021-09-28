@@ -1,6 +1,5 @@
-@media(max-width: 574px) {
-.menutopo{
-  display: none;
+@media only screen and (max-device-width: 900px) {
+/* .menu { width:100%; } */
 }
 
 html{
