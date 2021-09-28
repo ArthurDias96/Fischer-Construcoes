@@ -1,4 +1,4 @@
-@media (max-width: 800px), (min-width: 1281px)}
+
 
 html{
     max-width: 100%;
@@ -7,10 +7,9 @@ html{
 }
 * {
     margin: auto;
-    padding:0px;
+    padding:auto;
 }
 
- 
 (menu)
 body {
     margin: 10;
@@ -73,6 +72,7 @@ a{
     top: 2%;
     left: 50%;
 }
+
 
 
 
@@ -504,6 +504,11 @@ h21{
         font-weight: bold;
      font-family: Arial, Verdana, Tahoma, Sans-Serif;
 }
+.tela{
+    width: 100%;
+    height: auto;
+
+}
 
 (Pagina das obras)
 .test10{
@@ -512,7 +517,6 @@ h21{
     height: 100px;
     margin-top: 10px;
 }
-
 
 
 
