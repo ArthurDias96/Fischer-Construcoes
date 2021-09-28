@@ -1,4 +1,4 @@
-@media (max-width: 800px), (min-width: 1281px) {
+@media not all and (max-width: 400px) {
 /* .menu { width:100%; } */
 }
 
