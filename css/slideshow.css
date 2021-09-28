@@ -1,6 +1,6 @@
 .slideshow {
 	width: 1600px;
-	height: 400px;
+	height: 370px;
 	position: relative;
 	text-align: center;
 	line-height: 850px;
@@ -14,7 +14,7 @@
 /* slideshow item */
 .slideshow--item {
 	width: 1350;
-	height: 500px;
+	height: 380px;
 	line-height: 1.5;
 	position: absolute;
 	top: 0;
