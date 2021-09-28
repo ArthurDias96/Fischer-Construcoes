@@ -1,5 +1,21 @@
-@media not all and (max-width: 400px) {
-/* .menu { width:100%; } */
+/* Telas Pequenas */
+@media (min-width: 249px) and (max-width: 480px) 
+{
+
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Telas Médias */
+@media (min-width: 481px)  and (max-width: 1024px) 
+{
+
+}
+
+/* ----------------------------------------------------------------------------------------- */
+/* Telas Grandes */
+@media screen and (min-width: 1024px) 
+{
+
 }
 
 html{
