@@ -1,4 +1,8 @@
-@media only screen and (max-width: 900%) 
+@media(max-width: 574px) {
+.menutopo{
+  display: none;
+}
+
 html{
     max-width: 100%;
     overflow-x: hidden;
