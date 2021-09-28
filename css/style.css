@@ -1,19 +1,19 @@
 /* Telas Pequenas */
-@media (min-width: 249px) and (max-width: 480px) 
+@media (min-width: 249%) and (max-width: 480%) 
 {
 
 }
 
 /* ----------------------------------------------------------------------------------------- */
 /* Telas Médias */
-@media (min-width: 481px)  and (max-width: 1024px) 
+@media (min-width: 481%)  and (max-width: 1024%) 
 {
 
 }
 
 /* ----------------------------------------------------------------------------------------- */
 /* Telas Grandes */
-@media screen and (min-width: 1024px) 
+@media screen and (min-width: 1024%) 
 {
 
 }
