@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 500px) (max-device-width::after) {
+@media only screen and (min-device-width: 500px) and (max-device-width:1000px) {
     /* .menu { width:100%; } */
     }
 *{
