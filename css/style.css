@@ -1,5 +1,6 @@
 @media(max-width: 574px) {
-    /* .menu { width:100%; } */
+    .menutopo{
+      display: none;
     }
 *{
     margin: auto;
