@@ -1,87 +1,68 @@
-
-
+@media only screen and (min-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
+*{
+    margin: auto;
+    padding: 0px;
+}
 html{
     max-width: 100%;
-    overflow-x: hidden;
-    
-}
-* {
-    margin: auto;
-    padding:auto;
+    overflow-x: hidden; 
 }
 
-(menu)
 body {
     margin: 10;
-    background-color:#707271;
-
-
+    background-color:#ffffff;
 }
-
-
 ul {
     list-style: none;
     padding: 0;
     overflow: hidden;
     transition: all .5s;
-
-    
 }
 nav {
-     padding: 0 20px;
+    padding: 0 20px;
     justify-content: space-between;
     align-items: center;
-    
 }
 p {
-    color:#036a42;
-    font-family: arial black;
-   
-
+   color:#036a42;
+   font-family: arial rgb(0, 0, 0);
 }
 nav,
 ul {
-    display: flex;
-    flex-direction: row;
-    height: 70px;
-
+   display: flex;
+   flex-direction: row;
+   height: 70px;
 }
 li {
-    padding: 0 20px;
+   padding: 0 20px;
 }
 p {
-    margin: 0;
-
-    padding: 10px;
-    text-decoration: none;
+   margin: 0;
+   padding: 10px;
+   text-decoration: none;
 }
 a{
-        text-decoration: none;    }
+   text-decoration: none;    }
 .img_menu{
    background-color:#016b3d ;
    width: auto;
    height: 1%;
    margin-top: -0px;
 }
-(fim do menu)
-
 #Logo{
     width: auto;
     height: auto;
     position: absolute;
-    top: 2%;
+    top: 10%;
     left: 50%;
 }
-
-
-
-
-(contato)
 h1 {
     margin-bottom: 20px;
     margin-left: 20px;
-    color: #707271;
-    text-shadow: 5px 5px 5px black;
+    color: #141414;
+    
 }
 input, textarea {
     width: 200px;
@@ -89,8 +70,6 @@ input, textarea {
     color: black;
     margin-left: 20px;
     margin-top: 10px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border: 1px solid;
 }
 input:hover, textarea:hover, input:focus, textarea:focus {
@@ -122,129 +101,33 @@ form label {
     color: #fffafa;
     font-weight: bold;
 }
-(fim contato)
-#Sobre{
-    font-family: serif;
-    
-}
-.Sobre h1{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-}
-.Sobre h2{
-
-    font-family: calibre;
-}
-.rodape{
-    background-color: #141414;
-    width: auto;
-    height: 100px;
-}
-.b01{
-    margin-left: 600px;
-    font-family: arial;
-} 
-.somos{
-        background-color: #e5e5e5;
-        width: 700px;
-        height: 500px;
-        margin-left: 0px;
-        position: relative;
-        margin-top: 200px;
-}
-h1{
-    font-family: Relate;
-    font-size: 55px;
-    color: #707271;
-    padding: 20px 28px;
-    margin-left: 240px;
-    margin-top: 10px;
-    width:2px;
-      font-weight: bold;
-}
-h4{   
-    font-family: Arial, Verdana, Tahoma, Sans-Serif;
-    color: #707271;
-    font-size: 12px;
-    margin-top: 10px;
-    margin-left: 50px;
-    width: 48em;
-    text-align: justify;
-    font-weight: bold;
-   line-height: 15px;
-   text-ident: 1cm;
-
-
-}
-.img_1{
-     transition: all;
-    }
-h3 {
-    display: inline-block;
-    font-family: Roboto,Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #707271;
-    margin: 50px;
-    margin-left: 525px;
-    text-align: center;
-}
-
 .css985{
-    background-color:#036a42;
     width:130px;
     height: 14px;
     margin-top:-30px ;
-    margin-left: 590px;
+    margin-left: 890px;
     position: absolute;
-
    }
-.obra_1{
-    background-color: #ebeded;
-    width: 220px;
-    height: 347px;
-    margin-left: 200px;
 
-}
-.obra_2{
-    background-color: #ebeded;
-    width: 220px;
-    height: 347px;
-    margin-left: 540px;
-    margin-top: -345px;
-}
-.obra_3{
-    background-color:#ebeded;
-    width: 220px;
-    height: 347px;
-    margin-left: 880px;
-    margin-top: -345px;
-}
 .ht10{
     margin-left: 10px;
      position: relative;
      margin-top: 80px;
 }
 h5{
-    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-family: var(--kv-ee-heading-font-family,"Nunito Sans","Open Sans",sans-serif);
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
     color: #707271;
     margin-top: 100px;
     font-weight: bold;
-   
 }
 h6{
-    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    font-family: var(--kv-ee-heading-font-family,"Nunito Sans","Open Sans",sans-serif);
     color: #707271;
     font-size: 12px;
     margin-left: 252px; 
-    
 }
 .ico1{
     width: 10px;
@@ -258,7 +141,6 @@ h6{
     margin-left: 240px;
     margin-top: -9px;
 }
-
 .ico3{
      width: 10px;
     height: 10px;
@@ -269,13 +151,10 @@ h6{
     left: 300px;
     position: relative;   
 }
-
 .css66{
    left: 300px;
    position: relative;
- 
 }
-
 .K10{
       left: 50px;
       position: relative;
@@ -323,13 +202,12 @@ input:focus, textarea:focus {
     background-color: #707271;
     color: #FFF;
     border-radius: 3px;
-    moz-border-radius: 3px;
+    -moz-border-radius: 3px;
     -webkit-border-radius: 3px;                     
 }
 .maps{
     margin-left: 200px;
 }
-
 .red56{
     left: 300px;
     
@@ -347,7 +225,6 @@ input:focus, textarea:focus {
     margin-left: 100px;
     margin-top: -24px;
 }
-
 .num{
     background: #036a42;
     width:100%;
@@ -356,7 +233,6 @@ input:focus, textarea:focus {
     display: flex;
     position: relative;
 }
-
 .num_barra{
     background-color: #ffffff;
     height: 80px;
@@ -388,34 +264,29 @@ input:focus, textarea:focus {
 }
 .cor{
     color: #ffffff;
-    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-family: var(--kv-ee-heading-font-family,"Nunito Sans","Open Sans",sans-serif);
     font-size: 20px;
     margin-top: -100px;
     display: flex;
     position: relative;
     text-align: center;
 }
-
 .h110{
     margin-left: 100px;
     margin-top: 30px;
-
 }
 .h111{
     margin-left: 100px;
     margin-top: 30px;
 }
-
 .h112{
     margin-left: 100px;
     margin-top: 30px;
 }
-
 .h113{
     margin-left: 100px;
     margin-top: 30px;
 }
-
 .ano{
     margin-left: 63px;
     margin-top: -120px;
@@ -432,20 +303,21 @@ input:focus, textarea:focus {
      margin-left:1100px;
      margin-top: -92px;
 }
-
+.tag_projetos{
+    margin-top: 1000px;
+}
 h10{
-    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    font-family: var(--kv-ee-heading-font-family,"Nunito Sans","Open Sans",sans-serif);
     font-size: 20px;
 }
 h11{
-    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    font-family: var(--kv-ee-heading-font-family,"Nunito Sans","Open Sans",sans-serif);
     font-size: 80px;
     display: flex;
     text-align: center;
     color: black;
     position: relative;
 }
-
 .img_sobre{
     margin-left: 500px;
     margin-top: -500;
@@ -459,103 +331,63 @@ h11{
     position: relative;
     display: flex;
     }
-
-.slide_1{
-    margin-left: 3px;
-}
-.slide_2{
-    margin-left: 3px;
-    
-}
-.slide_3{
-    margin-left: 3px;
-}
-h7{
-    color: black;
-    margin-top: 15px;
-    font-size: 15px;
-    margin-left: 80px;
-    text-align: center;
-        font-weight: bold;
-     font-family: Arial, Verdana, Tahoma, Sans-Serif;
-     }
-strong{
-    color: #8a8a8a;
-    margin-top: -5px;
-    text-decoration: none;
-    font-size: 11px;
-    font-family: Arial, Verdana, Tahoma, Sans-Serif;
-}
-h20{
-    color: black;
-    margin-top: 15px;
-    font-size: 15px;
-    margin-left: 80px;
-    text-align: center;
-    font-weight: bold;
-     font-family: Arial, Verdana, Tahoma, Sans-Serif;
-}
-h21{
-    color: black;
-    margin-top: 15px;
-    font-size: 15px;
-    margin-left: 75px;
-    text-align: center;
-        font-weight: bold;
-     font-family: Arial, Verdana, Tahoma, Sans-Serif;
-}
 .tela{
-    width: 100%;
-    height: auto;
-
+  width: auto;
+  height: auto;
+  display: flex;
 }
-
-(Pagina das obras)
-.test10{
-    background: black;
+.barra_sobre{
+    margin-left: 600px;
+    margin-top: 80px;
+    width: 140px;
+    height: 14px;
+}
+.Subtitulo_sobre{
+    margin-left: 620px;
+    font-size: 20px;
+    margin-top: -380px;
     width: 500px;
-    height: 100px;
-    margin-top: 10px;
+    font-family: var(--kv-ee-heading-font-family,"Nunito Sans","Open Sans",sans-serif);
+}
+.img_sobre{
+    margin: 30px;
+    margin-left: -600px;
+}
+.texto_sobre{
+    margin-left: 620px;
+    margin-top:-5px;
+    font-size: 8px;
+    font-family: var(--kv-ee-heading-font-family,"Nunito Sans","Open Sans",sans-serif);
+    width: 500px;
 }
 
+.obra{
+    margin-left: 600px;
+    margin-top: 280px;
+    width: 140px;
+    height: 14px;
+}
+.Titulo{
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.obra_1 {
+  float:left;
+  width: 200px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
 
+}
+.obra_1::after {
+  content: attr(data-title); /* estilo que coloco a legenda no lugar */
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  left: 0;
+    float:left;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-(RODAPE)
 .rodape{
     background-color: #141414;
     width: auto;
