@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 500px) and (max-device-width:1000px) {
+@media only screen and (min-device-width: 900px) {
     /* .menu { width:100%; } */
     }
 *{
@@ -9,7 +9,6 @@ html{
     max-width: 100%;
     overflow-x: hidden; 
 }
-
 body {
     margin: 10;
     background-color:#ffffff;
@@ -27,7 +26,7 @@ nav {
 }
 p {
    color:#036a42;
-   font-family: arial rgb(0, 0, 0);
+   font-family: arial black;
 }
 nav,
 ul {
@@ -61,8 +60,8 @@ a{
 h1 {
     margin-bottom: 20px;
     margin-left: 20px;
-    color: #141414;
-    
+    color: #707271;
+    text-shadow: 5px 5px 5px black;
 }
 input, textarea {
     width: 200px;
@@ -70,6 +69,7 @@ input, textarea {
     color: black;
     margin-left: 20px;
     margin-top: 10px;
+    
     border: 1px solid;
 }
 input:hover, textarea:hover, input:focus, textarea:focus {
@@ -108,7 +108,6 @@ form label {
     margin-left: 890px;
     position: absolute;
    }
-
 .ht10{
     margin-left: 10px;
      position: relative;
@@ -159,7 +158,6 @@ h6{
       left: 50px;
       position: relative;
 }
-
 .co89{
     left: 600px;
     margin-top: -450px;
@@ -336,7 +334,7 @@ h11{
   height: auto;
   display: flex;
 }
-.barra_sobre{
+.sobre{
     margin-left: 600px;
     margin-top: 80px;
     width: 140px;
@@ -359,17 +357,13 @@ h11{
     font-size: 8px;
     font-family: var(--kv-ee-heading-font-family,"Nunito Sans","Open Sans",sans-serif);
     width: 500px;
+    background-color: ;
 }
-
 .obra{
     margin-left: 600px;
-    margin-top: 280px;
+    margin-top: 500px;
     width: 140px;
     height: 14px;
-}
-.Titulo{
-    margin-left: 600px;
-    margin-top: 30px;
 }
 .obra_1 {
   float:left;
@@ -377,7 +371,6 @@ h11{
   margin: 10px;
   position: relative;
   text-align: center;
-
 }
 .obra_1::after {
   content: attr(data-title); /* estilo que coloco a legenda no lugar */
@@ -387,7 +380,6 @@ h11{
   left: 0;
     float:left;
 }
-
 .rodape{
     background-color: #141414;
     width: auto;
